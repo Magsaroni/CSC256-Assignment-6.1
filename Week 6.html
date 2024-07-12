@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 6</title>
+    <link href="Week 6 CSS.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>
+            My Game Stats Collector!
+        </h1>
+    </header>
+    <main class="container">
+<form id="frmGameDetails">
+    <label for="txtUserName">User Name</label>
+    <input type="text" id="txtUserName" name="txtUserName" required>
+
+    <label for="txtWeaponClass">Weapon Class</label>
+    <input type="text" id="txtWeaponClass" name="txtWeaponClass" required>
+
+    <label type="txtAnarchyRank">Anarchy Rank</label>
+    <input type="text" id="txtAnarchyRank" name="txtAnarchyRank" required>
+
+    <label type="txtSalmonRunRank">Salmon Run Rank</label>
+    <input type="text" id="txtSalmonRunRank" name="txtSalmonRunRank" required>
+
+    <button type="submit" onclick="submitform();">Submit</button>
+</form>
+
+<div id="output">
+    <h2>Player Information</h2>
+    <textarea id="txtAOutput" readonly></textarea>
+</div>
+    </main>
+
+  <script src="Week 6 JS.js"></script>
+</body>
+</html>
